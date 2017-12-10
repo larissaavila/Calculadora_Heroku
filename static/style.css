@@ -5,6 +5,7 @@ body{
 #visor {
    background-color: #FFCC66;
    text-align: right;
+   position: relative;
    margin: 20px auto 20px auto;
    width: 60%;
    border: solid black 3px;
@@ -27,7 +28,7 @@ form fieldset {
 form input {
    width: 100%;
    border: solid #ccc 1px;
-   font-size: 40px;
+   font-size: 23px;
    margin-bottom: 10px;
 }
 
