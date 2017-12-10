@@ -5,7 +5,7 @@ body{
 #visor {
    background-color: #FFCC66;
    text-align: right;
-   margin: 20px 300px 20px 40px;
+   margin: 20px 600px 20px 300px;
    width: 60%;
    border: solid black 3px;
    padding: 3%;
@@ -17,7 +17,7 @@ table {
 }
 
 form fieldset {
-   /*margin: 30px auto 10px auto;*/
+   margin: 30px auto 10px auto;
    width: 80%;
    border: solid black 1px;
    padding: 3%;
