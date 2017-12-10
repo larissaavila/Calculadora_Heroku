@@ -17,7 +17,7 @@ table {
 }
 
 form fieldset {
-   margin: 30px 30px 30px 30px;
+   margin: auto auto auto auto;
    width: 80%;
    border: solid black 1px;
    padding: 3%;
