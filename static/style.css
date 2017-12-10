@@ -27,20 +27,20 @@ form fieldset {
 
 form input {
    width: 100%;
-   border: solid #ccc 1px;
+   border: solid #ccc 2px;
    font-size: 23px;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
 }
 
 form input.num {
    display: block;
-   width: 120px;
-   height: 120px;
+   width: 80px;
+   height: 80px;
 }
 
 form input.oper {
    display: block;
-   width: 120px;
-   height: 120px;
+   width: 80px;
+   height: 80px;
    background-color: #FFCC66;
 }
