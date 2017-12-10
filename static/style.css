@@ -1,7 +1,7 @@
 body{
 	background-color: #00FFFF;
 	background-image: url("listras.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 }
 
