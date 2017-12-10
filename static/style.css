@@ -2,36 +2,15 @@ body{
 	background-color: #FFF8DC;
 }
 
-/*#visor {
+#visor {
    background-color: #FFCC66;
    text-align: right;
-   margin: 20px auto 20px auto;
+   margin: 20px 60px 20px 40px;
    width: 60%;
    border: solid black 3px;
    padding: 3%;
    margin-bottom: 10px;
-}*/
-
-#display
-{
-background-color:#FFCC66;
-width:60%;
-position:relative;
-left:35px;
-top:60px;
-height:20px;
 }
-.display input
-{
-position:relative;
-left:2px;
-top:2px;
-height:35px;
-color:black;
-background-color:#FFCC66;
-font-size:23px;
-text-align:right;
-} 
 
 table {
    margin: 0 auto 0 auto;
