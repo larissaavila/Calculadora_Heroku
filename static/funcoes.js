@@ -21,20 +21,6 @@ function calcNum(num) {
    }
 }
 
-function maismenos(){
-	if(atual == 'undefined'){
-		menos = "-";
-		copia = menos + document.calcform.visor.value;
-		document.calcform.visor.value = copia;
-		atual = 1;
-	}
-	else{
-		copia = document.calcform.visor.value.replace("-", "");
-		document.calcform.visor.value = copia;
-		delete atual;
-	}
-}
-
 // Função que limpa a calculadora e todas as variáveis existentes.
 function calcLimpar() {
    document.calcform.visor.value = '';
@@ -48,17 +34,16 @@ function calcLimpar() {
 function calcOper(oper, valor1, valor2) {
    if (oper == "somar") {
       var valor = parseFloat(valor1) + parseFloat(valor2);
-   } else {
-      if (oper == "subtrair") {
+   } else if (oper == "subtrair") {
          var valor = parseFloat(valor1) - parseFloat(valor2);
-      } else {
-         if (oper == "multiplicar") {
+      } else if (oper == "multiplicar") {
             var valor = parseFloat(valor1) * parseFloat(valor2);
-         } else {
-            var valor = parseFloat(valor1) / parseFloat(valor2);
+         } else if (oper == "dividir"){
+			 var valor = parseFloat(valor1) / parseFloat(valor2);
          }
-      }
-   }
+			    else{
+				  var valor = Math.pow(parseFloat(valor1), parseFloat(valor2));
+			    }
 
    return(valor);
 }
